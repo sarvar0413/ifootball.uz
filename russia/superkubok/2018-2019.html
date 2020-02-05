@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token"
+        content="jIe6PAd_VKBGXLKla0Tw1ySzrXYUce9VXkwF-HQQJJPi4dBNNyhhwQ0dhOQvA7y-CcSfQ34DhWcENmynHXNN0Q==">
+    <title></title>
+    <link href="/css/index.css" rel="stylesheet">
+    <script>var _avp = _avp || [];</script>
+    <script async src="//adbetnet.advertserve.com/js/libcode3.js"></script>
+    <script src="//mc.yandex.ru/metrika/watch.js"></script>
+    <script>try { var yaCounter36528 = new Ya.Metrika({ id: 36528, webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true }); } catch (e) { }</script>
+    <script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=50022"></script>
+    <style>
+        table.description {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.1em 0
+        }
+
+        table.description td {
+            border: solid 1px #bababa;
+            padding: 0.4em;
+            text-align: center;
+        }
+
+        table.description td.left {
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        table.description td.right {
+            text-align: right;
+            vertical-align: middle;
+        }
+
+        table.description td.statistics {
+            text-align: left;
+            vertical-align: middle;
+            border-left: solid 1px #ffffff;
+        }
+
+        table.description tr:hover {
+            background: #f4f4d4;
+        }
+
+        table.russia {
+            width: 100%;
+            border-left: solid 1px #99cc66;
+            border-right: solid 1px #99cc66;
+            border-top: solid 1px #99cc66;
+            border-bottom: solid 1px #99cc66;
+        }
+
+        span.stad {
+            background-color: #e5e5e5;
+            font-family: Arial, Tahoma;
+            font-size: 13px;
+            color: #000000;
+            font-weight: 500;
+        }
+
+        acronym {
+            cursor: help;
+            border-bottom: 1px dashed #800000;
+            color: #800000;
+        }
+
+        .imgobs {
+            margin-left: 2em;
+            margin-right: 2em;
+            border: 1px #e5e5e5 solid;
+        }
+
+        .navbar-default {
+            border-top: 3px #99cc66 solid;
+            padding-top: 5px;
+            color: #000000;
+            background-color: #f8f8f8;
+            border-bottom: 1px #99cc66 solid;
+            border-left: 0px #99cc66 solid;
+            border-right: 0px #99cc66 solid;
+        }
+
+        .navbar-nav {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .dropdown-menu {
+            text-transform: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        a.n {
+            color: #800000
+        }
+
+        a.n:hover {
+            color: #800000
+        }
+
+        h2 {
+            font-family: Arimo, Arial, sans-serif;
+            font-size: 22px;
+            line-height: 1.3em;
+        }
+
+        h3 {
+            font-family: Arimo, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.3em;
+        }
+
+        a.red {
+            color: #800000;
+            border-bottom: 1px solid;
+            border-bottom-color: rgba(128, 0, 0, 0.3);
+        }
+
+        a.red:hover {
+            color: #800000;
+            border-bottom: 0px solid;
+            text-decoration: none;
+        }
+
+        .trofy a {
+            color: #800000;
+            border-bottom: 1px solid;
+            border-bottom-color: rgba(128, 0, 0, 0.3);
+        }
+
+        .trofy a:hover {
+            color: #800000;
+            border-bottom: 0px solid;
+            text-decoration: none;
+        }
+
+        .champs_link a {
+            color: #000000;
+            border-bottom: 0px solid;
+            text-decoration: none;
+        }
+
+        .champs_link a:hover {
+            color: #000000;
+            border-bottom: 0px solid;
+            text-decoration: none;
+        }
+
+        a.white {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a.white:hover {
+            color: #ffffff;
+            border-bottom: 1px solid;
+        }
+
+        a.grey {
+            color: #a9a9a9;
+            text-decoration: none;
+        }
+
+        a.grey:hover {
+            color: #a9a9a9;
+            border-bottom: 1px solid;
+        }
+
+        a.black {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        a.black:hover {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        table.stadium {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        table.stadium td {
+            border: solid 0px #bababa;
+            padding: 0 0 0 0;
+        }
+
+        table.stadium td.left {
+            width: 120px;
+            heigth: 120px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table.stadium td.right {
+            padding: 20px 20px 5px 20px;
+            text-align: left;
+            font-family: arial;
+            font-size: 13px;
+            line-height: 1.4em;
+            heigth: 120px;
+        }
+
+        table.clubs {
+            width: 100%;
+            border: solid 1px #99cc66;
+            margin-bottom: 10px;
+        }
+
+        table.clubs td {
+            vertical-align: middle;
+            text-align: center;
+            padding: 0 20px 0 10px;
+        }
+
+        table.clubs td.info {
+            vertical-align: middle;
+            text-align: left;
+            color: #444;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.4em;
+        }
+
+        table.clubs td.soz {
+            width: 20%;
+            vertical-align: top;
+            text-align: left;
+            padding: 20px 0 0 20px;
+        }
+
+        table.clubs td.teams {
+            vertical-align: middle;
+            text-align: left;
+            color: #444;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.4em;
+        }
+
+        .button_stats {
+            border: 1px solid #99cc66;
+            /* Рамка */
+            display: inline-block;
+            padding: 5px 15px;
+            /* Поля */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            color: #000;
+            /* Цвет текста */
+        }
+
+        .blockquote {
+            font-size: 16px;
+            border-left: 5px solid #e5e5e5;
+        }
+
+        .button_stats:hover {
+            border: 1px solid #99сс66;
+            color: #000;
+            background-color: #99cc66;
+            /* Цвет фона при наведении */
+            text-decoration: none;
+        }
+
+        .button_stats_grey {
+            border: 1px solid #e0e0e0;
+            /* Рамка */
+            display: inline-block;
+            padding: 5px 15px;
+            /* Поля */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            color: #000;
+            /* Цвет текста */
+            background-color: #f8f8f8;
+        }
+
+        .button_online {
+            border: 1px solid #99cc66;
+            /* Рамка */
+            display: inline-block;
+            padding: 3px 5px;
+            /* Поля */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            color: #000;
+            /* Цвет текста */
+            font-size: 12px;
+            margin: 0px 10px 15px 0px;
+        }
+
+        .button_online:hover {
+            border: 1px solid #99сс66;
+            color: #000;
+            background-color: #99cc66;
+            /* Цвет фона при наведении */
+            font-size: 12px;
+            margin: 0px 10px 15px 0px;
+            text-decoration: none;
+        }
+
+        .button_online_grey {
+            border: 1px solid #e0e0e0;
+            /* Рамка */
+            display: inline-block;
+            padding: 3px 5px;
+            /* Поля */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            color: #000;
+            /* Цвет текста */
+            background-color: #f8f8f8;
+            font-size: 12px;
+            margin: 0px 10px 15px 0px;
+        }
+
+        .trofy {
+            font-family: Times new roman, sans-serif;
+            line-height: 25px;
+            color: #000;
+        }
+
+        .wrapper {
+            background: #fff;
+        }
+
+        .main-article {
+            color: #000;
+            line-height: 1.44;
+        }
+
+        .line_news {
+            font-size: 0.9em;
+        }
+
+        .subheader {
+            font-size: 0.9em;
+        }
+
+        section.articles.article-details .header {
+            border-bottom: 1px dotted #d7d8dc;
+        }
+
+        section.articles .main-article {
+            border-bottom: 1px dotted #d7d8dc;
+            margin-bottom: 1em;
+            padding-bottom: 1em;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KS2JW97');</script>
+    <meta name="google-site-verification" content="EwSDh35Mn5fEmBUbtHCjZDi4T8O9RCn_hCQzan5TLGA" />
+    <meta name="yandex-verification" content="50e3cee4d1281cc4" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <div id="frQwQdXa"></div>
+    <script>
+        (function (w, d, o, g, r, a, m) {
+            w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+            function e(b, w, r) {
+                if (w[r + 'h'] = b.pop()) {
+                    a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                    a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.insertBefore(a, p)
+                }
+            } if (!w.ABN) { e(g, w, r) }; w[r]('frQwQdXa', { id: 2061701456 })
+        })(window, document, 'script', ['braun634.com'], 'ABNS');
+    </script>
+    <div class="main-wrapper container-fluid" style="max-width: 1170px;">
+        <div class="notifications top-left"></div>
+        <header class="top-navigation">
+            <div class="container-fluid" style="max-width: 1170px;">
+
+                <nav class="navbar">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#w01-collapse" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+                    </div>
+
+
+                    <div class="navbar-collapse collapse" id="w01-collapse" aria-expanded="false">
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="/euro/qualification/2020">Евро-2020</a></li>
+                            <li class="dropdown"><a href="/russia" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-ru visible-xs-inline-block"></i> Россия</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/russia/premier-liga/2019-2020/2019-2020.html">Премьер-лига</a></li>
+                                    <li><a href="/russia/premier-liga/2019-2020/calendar.html">Календарь премьер-лиги</a>
+                                    </li>
+                                    <li><a href="/russia/fnl/2019-2020.html">ФНЛ. Первый дивизион</a></li>
+                                    <li><a href="/russia/kubok/2019-2020.html">Кубок России</a></li>
+                                    <li><a href="/cup-of-premiere/cup-of-premiere.html">Кубок Премьер</a></li>
+                                    <li><a href="/russia/superkubok/2018-2019.html">Суперкубок</a></li>
+                                    <li><a href="/russia/zona-centr/2019-2020.html">ПФЛ. Второй дивизион — Зона Центр</a></li>
+                                    <li><a href="/russia/zona-zapad/2019-2020.html">ПФЛ. Второй дивизион — Зона Запад</a></li>
+                                    <li><a href="/russia/zona-ural-povolzhie/2019-2020.html">ПФЛ. Второй дивизион — Зона
+                                            Урал-поволжье</a></li>
+                                    <li><a href="/russia/zona-yug/2019-2020.html">ПФЛ. Второй дивизион — Зона Юг</a></li>
+                                    <li><a href="/russia/zona-vostok/2019-2020.html">ПФЛ. Второй дивизион — Зона Восток</a></li>
+                                    <li><a href="/russia/molodezhnyj-turnir/2019-2020.html">Молодёжный турнир</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/england" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-gb visible-xs-inline-block"></i> Англия</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/england/premier-liga">Премьер-лига</a></li>
+                                    <li><a href="/england/championship">Чемпионшип</a></li>
+                                    <li><a href="/england/first-league">Первая лига</a></li>
+                                    <li><a href="/england/second-league">Вторая лига</a></li>
+                                    <li><a href="/england/kubok">Кубок Англии</a></li>
+                                    <li><a href="/england/superkubok">Суперкубок</a></li>
+                                    <li><a href="/england/kubok-ligi">Кубок лиги</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/spain" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-es visible-xs-inline-block"></i> Испания</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/spain/primera">Примера</a></li>
+                                    <li><a href="/spain/segunda">Сегунда</a></li>
+                                    <li><a href="/spain/superkubok">Суперкубок</a></li>
+                                    <li><a href="/spain/kubok">Кубок</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/italy" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-it visible-xs-inline-block"></i> Италия</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/italy/seria-a">Серия А</a></li>
+                                    <li><a href="/italy/seria-b">Серия B</a></li>
+                                    <li><a href="/italy/superkubok">Суперкубок</a></li>
+                                    <li><a href="/italy/kubok">Кубок</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/germany" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-de visible-xs-inline-block"></i> Германия</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/germany/bundesliga">Бундеслига</a></li>
+                                    <li><a href="/germany/bundesliga-2">Вторая бундеслига</a></li>
+                                    <li><a href="/germany/superkubok">Суперкубок</a></li>
+                                    <li><a href="/germany/kubok">Кубок</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/france" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="flag-icon flag-icon-fr visible-xs-inline-block"></i> Франция</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/france/league-one">Лига 1</a></li>
+                                    <li><a href="/france/league-two">Лига 2</a></li>
+                                    <li><a href="/france/kubok">Кубок</a></li>
+                                    <li><a href="/france/superkubok">Суперкубок</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Мир</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/australia">Австралия</a></li>
+                                    <li><a href="/austria">Австрия</a></li>
+                                    <li><a href="/argentina">Аргентина</a></li>
+                                    <li><a href="/belarus">Беларусь</a></li>
+                                    <li><a href="/belgium">Бельгия</a></li>
+                                    <li><a href="/brazil">Бразилия</a></li>
+                                    <li><a href="/greece">Греция</a></li>
+                                    <li><a href="/denmark">Дания</a></li>
+                                    <li><a href="/kazachstan">Казахстан</a></li>
+                                    <li><a href="/china">Китай</a></li>
+                                    <li><a href="/netherlands">Нидерланды</a></li>
+                                    <li><a href="/norway">Норвегия</a></li>
+                                    <li><a href="/portugal">Португалия</a></li>
+                                    <li><a href="/usa">США</a></li>
+                                    <li><a href="/turkey">Турция</a></li>
+                                    <li><a href="/ukraine">Украина</a></li>
+                                    <li><a href="/finland">Финляндия</a></li>
+                                    <li><a href="/croatia">Хорватия</a></li>
+                                    <li><a href="/czech">Чехия</a></li>
+                                    <li><a href="/switzerland">Швейцария</a></li>
+                                    <li><a href="/sweden">Швеция</a></li>
+                                    <li><a href="/scotland">Шотландия</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">ЛЧ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/league-champions/play-off">Плей-офф</a></li>
+                                    <li><a href="/league-champions/play-off/2019-2020/g">Групповой этап</a></li>
+                                    <li><a href="/league-champions/group-tour/2019-2020/q">Предварительный турнир</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">ЛЕ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/league-europe/play-off">Плей-офф</a></li>
+                                    <li><a href="/league-europe/play-off/2019-2020/g">Групповой этап</a></li>
+                                    <li><a href="/league-europe/play-off/2019-2020/q">Предварительный турнир</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown navbar-right"><a href="" class="dropdown-toggle"
+                                    data-toggle="dropdown"><i class="fa fa-caret-down hidden-xs"></i><span
+                                        class="visible-xs">Другое</span> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://hockeyland.ru" rel="nofollow">Хоккей</a></li>
+                                    <li><a href="/news">Лента новостей</a></li>
+                                    <li><a href="/uefa-nations-league/table/2018">Лига наций</a></li>
+                                    <li><a href="/championaty">Чемпионаты</a></li>
+                                    <li><a href="/kojefficienty-uefa">Коэффициенты УЕФА</a></li>
+                                    <li><a href="/kojefficienty-fifa">Рейтинг ФИФА</a></li>
+                                    <li><a href="/frendly-matches/clubs">Товарищеские матчи</a></li>
+                                    <li><a href="/cup-of-africa/play-off/2019">Кубок Африки</a></li>
+                                    <li><a href="/kubok-fnl/group/2019">Кубок ФНЛ</a></li>
+                                    <li><a href="/footballstars">Зал славы</a></li>
+                                    <li><a href="/reklama">Реклама на сайте</a></li>
+                                    <li><a href="/wallpapers">Футбольные обои</a></li>
+                                    <li><a href="/about">О проекте</a></li>
+                                    <li><a href="/confederation_cup/2017">Кубок конфедераций 2017</a></li>
+                                    <li><a href="/worldcup/2018">Чемпионат мира 2018</a></li>
+                                    <li><a href="/worldcup/2014">Чемпионат мира 2014</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right" style="margin-right:0">
+                            <li class="dropdown user-menu">
+                                <a href="#" data-toggle="modal" data-target="#register"><i
+                                        class="fa fa-user-circle"></i><span class="mobile-show-inline"
+                                        style="display:none"> Авторизоваться</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+
+            <div class="row">
+                <div class="col-md-8 col-sm-7">
+
+                    <ul class="top-news">
+                        <li>
+                            <time>00:04</time>
+                            <div class="top-news-text">
+                                <a href="/news/171450-poluzasitnik-olborga-oliver-abildgor-peresel-v-rubin">
+                                    Полузащитник "Ольборга" Оливер Абильдгор перешел в "Рубин" </a>
+
+                                <span class="comment-holder hidden">
+                                    <span class="r top-news-cntcomment"><i class="fa fa-fw fa-comment"></i> <span
+                                            class="comment4news-171450">0</span></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <time>16:28</time>
+                            <div class="top-news-text">
+                                <a href="/news/171441-karpin-podpisal-novyj-kontrakt-s-rostovom-na-pat-let">
+                                    Карпин подписал новый контракт с "Ростовом" на пять лет </a>
+
+                                <span class="comment-holder hidden">
+                                    <span class="r top-news-cntcomment"><i class="fa fa-fw fa-comment"></i> <span
+                                            class="comment4news-171441">0</span></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <time>16:14</time>
+                            <div class="top-news-text">
+                                <a
+                                    href="/news/171439-pervyj-kanal-vgtrk-i-matc-tv-pokazut-matci-evro-2020-v-ravnom-obeme">
+                                    Первый канал, ВГТРК и "Матч ТВ" покажут матчи Евро-2020 в равном объеме </a>
+
+                                <span class="comment-holder hidden">
+                                    <span class="r top-news-cntcomment"><i class="fa fa-fw fa-comment"></i> <span
+                                            class="comment4news-171439">0</span></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <time>13:03</time>
+                            <div class="top-news-text">
+                                <a href="/news/171433-luis-adriano-a-ne-sobiralsa-pokidat-spartak">
+                                    Луис Адриано: я не собирался покидать "Спартак" </a>
+
+                                <span class="comment-holder hidden">
+                                    <span class="r top-news-cntcomment"><i class="fa fa-fw fa-comment"></i> <span
+                                            class="comment4news-171433">0</span></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <time>11:58</time>
+                            <div class="top-news-text">
+                                <a
+                                    href="/news/171429-istocnik-havbek-galatasaraa-belhanda-otklonil-predlozenie-spartaka">
+                                    Источник: хавбек "Галатасарая" Бельханда отклонил предложение "Спартака" </a>
+
+                                <span class="comment-holder hidden">
+                                    <span class="r top-news-cntcomment"><i class="fa fa-fw fa-comment"></i> <span
+                                            class="comment4news-171429">0</span></span>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-5">
+                    <div class="match-ofthe-day">
+                        <div class="bold text-center match-ofthe-day-teams">
+                            <a href="/italy/team/sampdoria#seria-a/2019-2020">Сампдория</a> &mdash;
+                            <a href="/italy/team/napoli#seria-a/2019-2020">Наполи</a> </div>
+
+                        <div class="row">
+                            <div class="col-xs-3 text-center">
+                                <a href="/italy/team/sampdoria#seria-a/2019-2020" class="notLink"><img
+                                        src="/uploads/team/103-5ab42318eedf3.png"></a>
+                            </div>
+                            <div class="col-xs-6 text-center">
+                                Матч окончен<br>
+                                <a href="/match/78057-sampdoria-vs-napoli">
+                                    <span
+                                        class="score bold text-nowrap"><span>2</span><span>:</span><span>4</span></span>
+                                </a>
+                                <div>
+                                    <a href="https://soccerland.ru/italy/seria-a/2019-2020">Италия: Серия А</a> </div>
+
+                            </div>
+                            <div class="col-xs-3 text-center">
+                                <a href="/italy/team/napoli#seria-a/2019-2020" class="notLink"><img
+                                        src="/uploads/team/103-5ab42311ec67c.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="goals">Голы: Аркадиуш Милик (0:1) Элиф Элмас (0:2) Фабио Квальярелла (1:2)
+                                    Маноло Габбьядини (2:2) Диего Демме (2:3) Дрис Мертенс (2:4)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <div id="KLJHGbfvgnj"></div>
+                <script>
+                    (function (w, d, o, g, r, a, m) {
+                        w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+                        function e(b, w, r) {
+                            if (w[r + 'h'] = b.pop()) {
+                                a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                                a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.insertBefore(a, p)
+                            }
+                        } if (!w.ABN) { e(g, w, r) }; w[r]('KLJHGbfvgnj', { id: 1996453552 })
+                    })(window, document, 'script', ['braun634.com'], 'ABNS');
+                </script>
+                <br>
+            </div>
+            <div class="alert-user-messages">
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 col-md-push-3    col-sm-8 col-sm-push-4">
+                    <section>
+                        <header class="country-header">
+                            <ul class="list-inline no-margin menu">
+                                <li class="dropdown">
+                                    <span class="dropdown-toggle" data-toggle="dropdown">Россия <i
+                                            class="fa fa-fw fa-toggle-down color-primary hidden-xs"></i>
+                                        <i class="fa fa-fw fa-caret-down color-white visible-xs-inline"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/england"><i class="flag-icon flag-icon-gb-eng"></i> Англия</a>
+                                        </li>
+                                        <li><a href="/germany"><i class="flag-icon flag-icon-de"></i> Германия</a></li>
+                                        <li><a href="/spain"><i class="flag-icon flag-icon-es"></i> Испания</a></li>
+                                        <li><a href="/italy"><i class="flag-icon flag-icon-it"></i> Италия</a></li>
+                                        <li><a href="/france"><i class="flag-icon flag-icon-fr"></i> Франция</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="/league-champions"> Лига чемпионов</a></li>
+                                        <li><a href="/league-europe"> Лига Европы</a></li>
+                                        <li><a href="/euro/qualification/2020"> Евро-2020</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="/russia"><i class="flag-icon flag-icon-ru"></i> Россия</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="/championaty"><i></i> Весь список</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <span class="dropdown-toggle" data-toggle="dropdown">
+                                        Суперкубок <i class="fa fa-fw fa-toggle-down color-primary hidden-xs"></i>
+                                        <i class="fa fa-fw fa-caret-down color-white visible-xs-inline"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/russia/premier-liga/2019-2020/2019-2020.html">Премьер-лига</a></li>
+                                        <li><a href="/russia/fnl/2019-2020.html">Первый дивизион</a></li>
+                                        <li><a href="/russia/kubok/2019-2020.html">Кубок</a></li>
+                                        <li><a href="/russia/superkubok/2018-2019.html">Суперкубок</a></li>
+                                        <li><a href="/russia/play-off/2019-2020.html">Переходные матчи</a></li>
+                                        <li><a href="/russia/zona-zapad/2019-2020.html">Зона запад</a></li>
+                                        <li><a href="/russia/zona-centr/2019-2020.html">Зона центр</a></li>
+                                        <li><a href="/russia/zona-vostok/2019-2020.html">Зона восток</a></li>
+                                        <li><a href="/russia/zona-ural-povolzhie/2019-2020.html">Зона урал-поволжье</a></li>
+                                        <li><a href="/russia/zona-yug/2019-2020.html">Зона юг</a></li>
+                                        <li><a href="/russia/molodezhnyj-turnir/2019-2020.html">Молодежный турнир</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <span class="dropdown-toggle" data-toggle="dropdown">
+                                        2018-2019 <i class="fa fa-fw fa-toggle-down color-primary hidden-xs"></i>
+                                        <i class="fa fa-fw fa-caret-down color-white visible-xs-inline"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://soccerland.ru/russia/superkubok/2018-2019">2018-2019</a>
+                                        </li>
+                                        <li><a href="https://soccerland.ru/russia/superkubok/2017-2018">2017-2018</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </header>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="/russia/superkubok/2018-2019">Расписание матчей</a></li>
+                        </ul><br>
+                        <div class="shedule-table-wrapper">
+                            <div class="shedule-table-container">
+                                <section class="tour hidden">
+                                    <header>Финал тур 1</header>
+
+
+                                    <table class="table-condensed no-margin tour-table">
+                                        <tbody>
+
+                                            <tr class="match" data-ended="1">
+                                                <td>
+                                                    <nobr>
+                                                        06.07 19:00 </nobr>
+                                                </td>
+                                                <td><a href="/russia/team/zenit#superkubok/2018-2019">Зенит</a></td>
+                                                <td>
+                                                    <a href="/match/65663-zenit-vs-lokomotiv-m">2&nbsp;:&nbsp;3</a>
+                                                </td>
+                                                <td>
+                                                    <a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                                        М</a> </td>
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-3 col-md-pull-6    col-sm-4 col-sm-pull-8">
+                    <section>
+                        <header>Статистика</header>
+                        <div class="subheader">
+                            Бомбардиры</div>
+                        <ol class="xstat">
+                            <li>
+                                Алексей Миранчук (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 2 </li>
+                            <li>
+                                Сердар Азмун (<a href="/russia/team/zenit#superkubok/2018-2019">Зенит</a>)
+                                - 2 </li>
+                            <li>
+                                Фёдор Смолов (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив М</a>)
+                                - 1 </li>
+                        </ol>
+                        <div class="subheader">
+                            Ассистенты</div>
+                        <ol class="xstat">
+                            <li>
+                                Гжегож Крыховяк (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 1 </li>
+                            <li>
+                                Игорь Смольников (<a href="/russia/team/zenit#superkubok/2018-2019">Зенит</a>)
+                                - 1 </li>
+                            <li>
+                                Рифат Жемалетдинов (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 1 </li>
+                            <li>
+                                Фёдор Смолов (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив М</a>)
+                                - 1 </li>
+                        </ol>
+                        <div class="subheader">
+                            Гол + пас</div>
+                        <ol class="xstat">
+                            <li>
+                                Алексей Миранчук (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 2 </li>
+                            <li>
+                                Сердар Азмун (<a href="/russia/team/zenit#superkubok/2018-2019">Зенит</a>)
+                                - 2 </li>
+                            <li>
+                                Фёдор Смолов (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив М</a>)
+                                - 2 </li>
+                            <li>
+                                Гжегож Крыховяк (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 1 </li>
+                            <li>
+                                Игорь Смольников (<a href="/russia/team/zenit#superkubok/2018-2019">Зенит</a>)
+                                - 1 </li>
+                            <li>
+                                Рифат Жемалетдинов (<a href="/russia/team/lokomotiv-m#superkubok/2018-2019">Локомотив
+                                    М</a>)
+                                - 1 </li>
+                        </ol>
+                    </section>
+
+
+                    <section class="news">
+                        <header class="main"><a href="/news/2020-02-04">Лента новостей</a></header>
+                        <div class="subheader"><a href="/news/2020-02-04">4 февраля, вторник</a></div>
+                        <div class="line_news">
+                            <div class="time small">00:09 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171451-magnusson-akinfeev---samyj-opytnyj-i-samyj-krutoj-v-cska-on---praded"
+                                class="">Магнуссон: Акинфеев — самый опытный и самый крутой в ЦСКА, он — прадед!</a>
+
+                            <span class="comment-holder ">
+                                <a class="r"
+                                    href="/news/171451-magnusson-akinfeev---samyj-opytnyj-i-samyj-krutoj-v-cska-on---praded#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171451">1</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">00:04 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171450-poluzasitnik-olborga-oliver-abildgor-peresel-v-rubin"
+                                class="bold600">Полузащитник "Ольборга" Оливер Абильдгор перешел в "Рубин"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171450-poluzasitnik-olborga-oliver-abildgor-peresel-v-rubin#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171450">0</span></a>
+                            </span>
+                        </div>
+                        <div class="subheader"><a href="/news/2020-02-03">3 февраля, понедельник</a></div>
+                        <div class="line_news">
+                            <div class="time small">22:23 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171449-sluckij-uremovic-i-santos-budut-samoj-bystroj-paroj-centralnyh-zasitnikov-v-rpl"
+                                class="">Слуцкий: Уремович и Сантос будут самой быстрой парой центральных защитников в
+                                РПЛ</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171449-sluckij-uremovic-i-santos-budut-samoj-bystroj-paroj-centralnyh-zasitnikov-v-rpl#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171449">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">22:10 <a href="/russia/team/spartak-m">Спартак Москва</a></div>
+                            <a href="/news/171448-v-obsuu-gruppu-spartaka-vernulsa-poluzasitnik-nail-umarov" class="">В
+                                общую группу "Спартака" вернулся полузащитник Наиль Умяров</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171448-v-obsuu-gruppu-spartaka-vernulsa-poluzasitnik-nail-umarov#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171448">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">21:57 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171447-utkin---gineru-my-uze-ne-nadeemsa-cto-silnye-kluby-budut-v-krasnoarske-novosibirske-irkutske"
+                                class="">Уткин — Гинеру: мы уже не надеемся, что сильные клубы будут в Красноярске,
+                                Новосибирске, Иркутске?</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171447-utkin---gineru-my-uze-ne-nadeemsa-cto-silnye-kluby-budut-v-krasnoarske-novosibirske-irkutske#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171447">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">21:48 <a href="/russia/team/zenit">Зенит</a></div>
+                            <a href="/news/171446-kokorin---o-matce-za-zenit-2-eto-molodye-parni-kotorye-tolko-nacinaut-svoj-put"
+                                class="">Кокорин — о матче за "Зенит-2": это молодые парни, которые только начинают свой
+                                путь</a>
+
+                            <span class="comment-holder ">
+                                <a class="r"
+                                    href="/news/171446-kokorin---o-matce-za-zenit-2-eto-molodye-parni-kotorye-tolko-nacinaut-svoj-put#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171446">1</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">20:04 <a href="/spain/primera">Примера — Ла-Лига</a></div>
+                            <a href="/news/171445-matc-real---barselona-sostoitsa-1-go-marta" class="">Матч "Реал" —
+                                "Барселона" состоится 1-го марта</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r" href="/news/171445-matc-real---barselona-sostoitsa-1-go-marta#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171445">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">19:50 <a href="/russia/zona-zapad">Зона запад</a></div>
+                            <a href="/news/171444-kokorin-oformil-dubl-v-tovariseskom-matce-za-zenit-2" class="">Кокорин
+                                оформил дубль в товарищеском матче за "Зенит-2"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171444-kokorin-oformil-dubl-v-tovariseskom-matce-za-zenit-2#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171444">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">16:59 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171443-u-surrle-povrezdenie-pravoj-stopy-vosstanovlenie-zajmet-okolo-5-10-dnej"
+                                class="">У Шюррле повреждение правой стопы, восстановление займёт около 5-10 дней</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171443-u-surrle-povrezdenie-pravoj-stopy-vosstanovlenie-zajmet-okolo-5-10-dnej#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171443">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">16:49 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171442-arutunanc-karpin---glavnyj-trener-rostova-nadolgo" class="">Арутюнянц:
+                                Карпин — главный тренер "Ростова" надолго</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171442-arutunanc-karpin---glavnyj-trener-rostova-nadolgo#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171442">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">16:28 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171441-karpin-podpisal-novyj-kontrakt-s-rostovom-na-pat-let"
+                                class="bold600">Карпин подписал новый контракт с "Ростовом" на пять лет</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171441-karpin-podpisal-novyj-kontrakt-s-rostovom-na-pat-let#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171441">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">16:14 <a href="/euro/qualification/2020">Евро-2020</a></div>
+                            <a href="/news/171439-pervyj-kanal-vgtrk-i-matc-tv-pokazut-matci-evro-2020-v-ravnom-obeme"
+                                class="bold600">Первый канал, ВГТРК и "Матч ТВ" покажут матчи Евро-2020 в равном
+                                объеме</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171439-pervyj-kanal-vgtrk-i-matc-tv-pokazut-matci-evro-2020-v-ravnom-obeme#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171439">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">15:57 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171438-dele-alli-sterling-ne-stal-folit-namerenno" class="">Деле Алли:
+                                Стерлинг не стал фолить намеренно</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r" href="/news/171438-dele-alli-sterling-ne-stal-folit-namerenno#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171438">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">15:48 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171437-tosic-ocen-tazelo-predstavit-cska-bez-ginera" class="">Тошич: очень
+                                тяжело представить ЦСКА без Гинера</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171437-tosic-ocen-tazelo-predstavit-cska-bez-ginera#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171437">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">15:36 <a href="/france/league-one">Лига 1</a></div>
+                            <a href="/news/171436-mbappe-nedovolen-cto-ego-menaut-ranse-ostalnyh-zvezd-psz"
+                                class="">Мбаппе недоволен, что его меняют раньше остальных звезд "ПСЖ"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171436-mbappe-nedovolen-cto-ego-menaut-ranse-ostalnyh-zvezd-psz#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171436">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">15:27 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171435-giggz-masterstvo-fernandesa-bylo-vidno-na-protazenii-vsej-igry-s-vulverhemptonom"
+                                class="">Гиггз: мастерство Фернандеша было видно на протяжении всей игры с
+                                "Вулверхэмптоном"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171435-giggz-masterstvo-fernandesa-bylo-vidno-na-protazenii-vsej-igry-s-vulverhemptonom#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171435">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">15:13 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171434-moura-uveren-my-smozem-finisirovat-v-pervoj-cetverke-i-udacno-zaversit-etot-sezon"
+                                class="">Моура: уверен, мы сможем финишировать в первой четвёрке и удачно завершить этот
+                                сезон</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171434-moura-uveren-my-smozem-finisirovat-v-pervoj-cetverke-i-udacno-zaversit-etot-sezon#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171434">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">13:03 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171433-luis-adriano-a-ne-sobiralsa-pokidat-spartak" class="bold600">Луис
+                                Адриано: я не собирался покидать "Спартак"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r" href="/news/171433-luis-adriano-a-ne-sobiralsa-pokidat-spartak#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171433">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">12:46 <a href="/spain/primera">Примера — Ла-Лига</a></div>
+                            <a href="/news/171432-etoo-esli-vybirat-kogo-to-odnogo-to-a-by-vybral-ne-messi-a-inestu"
+                                class="">Это′О: если выбирать кого-то одного, то я бы выбрал не Месси, а Иньесту</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171432-etoo-esli-vybirat-kogo-to-odnogo-to-a-by-vybral-ne-messi-a-inestu#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171432">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">12:31 <a href="/france/league-one">Лига 1</a></div>
+                            <a href="/news/171431-psz-nacelilsa-na-de-silo" class="">"ПСЖ" нацелился на Де Шильо</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r" href="/news/171431-psz-nacelilsa-na-de-silo#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171431">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">12:15 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171430-corn-za-spartakom-ostaetsa-isklucitelnoe-pravo-vykupa-soltmurada-bakaeva"
+                                class="">Цорн: за "Спартаком" остается исключительное право выкупа Солтмурада
+                                Бакаева</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171430-corn-za-spartakom-ostaetsa-isklucitelnoe-pravo-vykupa-soltmurada-bakaeva#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171430">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">11:58 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171429-istocnik-havbek-galatasaraa-belhanda-otklonil-predlozenie-spartaka"
+                                class="bold600">Источник: хавбек "Галатасарая" Бельханда отклонил предложение
+                                "Спартака"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171429-istocnik-havbek-galatasaraa-belhanda-otklonil-predlozenie-spartaka#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171429">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">11:45 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171428-sulser-u-igrokov-mu-net-opyta-bolsih-pobed-no-eto-proizojdet-v-blizajsie-neskolko-let"
+                                class="">Сульшер: у игроков "МЮ" нет опыта больших побед, но это произойдёт в ближайшие
+                                несколько лет</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171428-sulser-u-igrokov-mu-net-opyta-bolsih-pobed-no-eto-proizojdet-v-blizajsie-neskolko-let#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171428">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">11:29 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171427-kokorin-moa-zarplata-v-zenite-mense-20-tys-rublej-v-mesac"
+                                class="bold600">Кокорин: моя зарплата в "Зените" меньше 20 тыс. рублей в месяц</a>
+
+                            <span class="comment-holder ">
+                                <a class="r"
+                                    href="/news/171427-kokorin-moa-zarplata-v-zenite-mense-20-tys-rublej-v-mesac#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171427">2</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">11:14 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171426-bergvejn-zabit-v-svoem-debute---eto-neveroatno" class="">Бергвейн:
+                                забить в своём дебюте — это невероятно</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171426-bergvejn-zabit-v-svoem-debute---eto-neveroatno#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171426">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">10:55 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171425-corn-transfer-opornika-sorvalsa-v-poslednij-moment"
+                                class="bold600">Цорн: трансфер опорника сорвался в последний момент</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171425-corn-transfer-opornika-sorvalsa-v-poslednij-moment#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171425">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">10:40 <a href="/england/premier-liga">АПЛ</a></div>
+                            <a href="/news/171424-zincenko-vina-za-porazenie-ot-tottenhema-polnostu-lezit-na-mne"
+                                class="">Зинченко: вина за поражение от "Тоттенхэма" полностью лежит на мне</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171424-zincenko-vina-za-porazenie-ot-tottenhema-polnostu-lezit-na-mne#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171424">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">10:25 <a href="/russia/premier-liga">РПЛ</a></div>
+                            <a href="/news/171423-vlasic-lucse-borotsa-za-ligu-cempionov-v-rpl-cem-za-vyzivanie-v-anglii"
+                                class="">Влашич: лучше бороться за Лигу чемпионов в РПЛ, чем за выживание в Англии</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171423-vlasic-lucse-borotsa-za-ligu-cempionov-v-rpl-cem-za-vyzivanie-v-anglii#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171423">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">10:11 <a href="/italy/seria-a">Серия А</a></div>
+                            <a href="/news/171422-konte-rad-cto-podtolknul-lukaku-na-perehod-v-inter" class="">Конте:
+                                рад, что подтолкнул Лукаку на переход в "Интер"</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171422-konte-rad-cto-podtolknul-lukaku-na-perehod-v-inter#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171422">0</span></a>
+                            </span>
+                        </div>
+                        <div class="line_news">
+                            <div class="time small">01:00 <a href="/spain/primera">Примера — Ла-Лига</a></div>
+                            <a href="/news/171421-barselona-obygrala-levante-blagodara-dublu-17-letnego-fati"
+                                class="bold600">"Барселона" обыграла "Леванте" благодаря дублю 17-летнего Фати</a>
+
+                            <span class="comment-holder hidden">
+                                <a class="r"
+                                    href="/news/171421-barselona-obygrala-levante-blagodara-dublu-17-letnego-fati#comments"><i
+                                        class="fa fa-fw fa-comment"></i> <span class="comment4news-171421">0</span></a>
+                            </span>
+                        </div>
+                        <a href="/news/2020-02-03">Ещё новости</a>
+                </div>
+
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <section class="online" data-advert="1" data-logo="0">
+                        <div class="load-shader"><i class="fa fa-spinner fa-spin"></i></div>
+
+                        <header>Результаты онлайн</header>
+
+                        <div class="online-pagination">
+                            <a data-date="2020-02-03" class="pill-button">Вчера</a>
+                            <a data-date="2020-02-04" class="pill-button active">Сегодня</a>
+                            <a data-date="2020-02-05" class="pill-button">Завтра</a>
+                            <button class="pill-button" data-toggle="datepicker"><i class="fa fa-calendar"></i></button>
+                        </div>
+
+
+                        <div class="online-results">
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon"
+                                                style="background-image: url(/uploads/country/277.svg);"></i>
+                                            <a class="black" href="/cup-of-premiere/group/2020">
+                                                Кубок Премьер: Групповой этап </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82843">
+                                        <td style="width:50%">
+                                            <a href="/cup-of-premiere/team/partizan#group/2020">Партизан</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/82843-partizan-vs-rostov">18:00</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/cup-of-premiere/team/rostov#group/2020">Ростов</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-gb-eng"></i>
+                                            <a class="black" href="/england/kubok/2019-2020">
+                                                Англия: Кубок </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82810">
+                                        <td style="width:50%">
+                                            <a href="/england/team/birmingem-siti#kubok/2019-2020">Бирмингем Сити</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/82810-birmingem-siti-vs-koventri-siti">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/koventri-siti#kubok/2019-2020">Ковентри Сити</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82812">
+                                        <td style="width:50%">
+                                            <a href="/england/team/derbi-kaunti#kubok/2019-2020">Дерби Каунти</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/82812-derbi-kaunti-vs-nortgempton-taun">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/nortgempton-taun#kubok/2019-2020">Нортгемптон
+                                                Таун</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82813">
+                                        <td style="width:50%">
+                                            <a href="/england/team/kardiff-siti#kubok/2019-2020">Кардифф Сити</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/82813-kardiff-siti-vs-reding">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/reding#kubok/2019-2020">Рединг</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82815">
+                                        <td style="width:50%">
+                                            <a href="/england/team/liverpul#kubok/2019-2020">Ливерпуль</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/82815-liverpul-vs-srusberi-taun">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/srusberi-taun#kubok/2019-2020">Шрусбери Таун</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82811">
+                                        <td style="width:50%">
+                                            <a href="/england/team/oksford-unajted#kubok/2019-2020">Оксфорд Юнайтед</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/82811-oksford-unajted-vs-nukasl-unajted">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/nukasl-unajted#kubok/2019-2020">Ньюкасл Юнайтед</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div style="text-align:center" id="VMgIeVkw"></div>
+                            <script>
+                                (function (w, d, o, g, r, a, m) {
+                                    w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+                                    function e(b, w, r) {
+                                        if (w[r + 'h'] = b.pop()) {
+                                            a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                                            a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.appendChild(a)
+                                        }
+                                    } if (!w.ABN) { e(g, w, r) }; w[r]("VMgIeVkw", { id: 1721296738 })
+                                })(window, document, 'head', ['braun634.com'], 'ABNS');
+                            </script>
+                            <br>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-gb-eng"></i>
+                                            <a class="black" href="/england/first-league/2019-2020">
+                                                Англия: Первая лига </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=72369">
+                                        <td style="width:50%">
+                                            <a href="/england/team/tranmir-rovers#first-league/2019-2020">Транмир
+                                                Роверс</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/72369-tranmir-rovers-vs-donkaster-rovers">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/england/team/donkaster-rovers#first-league/2019-2020">Донкастер
+                                                Роверс</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-es"></i>
+                                            <a class="black" href="/spain/kubok/2019-2020">
+                                                Испания: Кубок </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82851">
+                                        <td style="width:50%">
+                                            <a href="/spain/team/granada#kubok/2019-2020">Гранада</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/82851-granada-vs-valensia">23:00</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/spain/team/valensia#kubok/2019-2020">Валенсия</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-de"></i>
+                                            <a class="black" href="/germany/kubok/2019-2020">
+                                                Германия: Кубок </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=81603">
+                                        <td style="width:50%">
+                                            <a href="/germany/team/kajzerslautern#kubok/2019-2020">Кайзерслаутерн</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match"
+                                                href="/match/81603-kajzerslautern-vs-fortuna">20:30</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/germany/team/fortuna#kubok/2019-2020">Фортуна</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=81609">
+                                        <td style="width:50%">
+                                            <a href="/germany/team/ajntraht-f#kubok/2019-2020">Айнтрахт Ф</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/81609-ajntraht-f-vs-rb-lejpcig">20:30</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/germany/team/rb-lejpcig#kubok/2019-2020">РБ Лейпциг</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=81604">
+                                        <td style="width:50%">
+                                            <a href="/germany/team/verder#kubok/2019-2020">Вердер</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/81604-verder-vs-borussia-d">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/germany/team/borussia-d#kubok/2019-2020">Боруссия Д</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=81606">
+                                        <td style="width:50%">
+                                            <a href="/germany/team/salke-04#kubok/2019-2020">Шальке-04</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/81606-salke-04-vs-gerta">22:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/germany/team/gerta#kubok/2019-2020">Герта</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-fr"></i>
+                                            <a class="black" href="/france/league-one/2019-2020">
+                                                Франция: Лига 1 </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=65317">
+                                        <td style="width:50%">
+                                            <a href="/france/team/lill#league-one/2019-2020">Лилль</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/65317-lill-vs-renn">21:00</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/renn#league-one/2019-2020">Ренн</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=65318">
+                                        <td style="width:50%">
+                                            <a href="/france/team/monako#league-one/2019-2020">Монако</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/65318-monako-vs-anze">21:00</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/anze#league-one/2019-2020">Анже</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=65311">
+                                        <td style="width:50%">
+                                            <a href="/france/team/nant#league-one/2019-2020">Нант</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/65311-nant-vs-psz">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/psz#league-one/2019-2020">ПСЖ</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-fr"></i>
+                                            <a class="black" href="/france/league-two/2019-2020">
+                                                Франция: Лига 2 </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77388">
+                                        <td style="width:50%">
+                                            <a href="/france/team/valansen#league-two/2019-2020">Валансьен</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77388-valansen-vs-gengam">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/gengam#league-two/2019-2020">Генгам</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77602">
+                                        <td style="width:50%">
+                                            <a href="/france/team/pariz#league-two/2019-2020">Париж</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77602-pariz-vs-aacco">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/aacco#league-two/2019-2020">Аяччо</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77603">
+                                        <td style="width:50%">
+                                            <a href="/france/team/kan#league-two/2019-2020">Кан</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77603-kan-vs-nor">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/nor#league-two/2019-2020">Ньор</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77604">
+                                        <td style="width:50%">
+                                            <a href="/france/team/oser#league-two/2019-2020">Осер</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77604-oser-vs-klermon">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/klermon#league-two/2019-2020">Клермон</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77606">
+                                        <td style="width:50%">
+                                            <a href="/france/team/satoru#league-two/2019-2020">Шатору</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77606-satoru-vs-sambli">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/sambli#league-two/2019-2020">Шамбли</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77607">
+                                        <td style="width:50%">
+                                            <a href="/france/team/lans#league-two/2019-2020">Ланс</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77607-lans-vs-trua">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/trua#league-two/2019-2020">Труа</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77608">
+                                        <td style="width:50%">
+                                            <a href="/france/team/loran#league-two/2019-2020">Лорьян</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77608-loran-vs-le-man">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/le-man#league-two/2019-2020">Ле-Ман</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77609">
+                                        <td style="width:50%">
+                                            <a href="/france/team/nansi#league-two/2019-2020">Нанси</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77609-nansi-vs-soso">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/soso#league-two/2019-2020">Сошо</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=77610">
+                                        <td style="width:50%">
+                                            <a href="/france/team/orlean#league-two/2019-2020">Орлеан</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/77610-orlean-vs-rodez">23:05</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/france/team/rodez#league-two/2019-2020">Родез</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-condensed online-schedule">
+                                <thead>
+                                    <tr class="subheader">
+                                        <td colspan="3">
+                                            <i class="flag-icon flag-icon-pt"></i>
+                                            <a class="black" href="/portugal/kubok/2019-2020">
+                                                Португалия: Кубок </a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82475">
+                                        <td style="width:50%">
+                                            <a href="/portugal/team/benfika#kubok/2019-2020">Бенфика</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/82475-benfika-vs-famalikan">22:15</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/portugal/team/famalikan#kubok/2019-2020">Фамаликан</a>
+                                        </td>
+                                    </tr>
+                                    <tr data-html="true" data-toggle="ajax-tooltip" data-container="section.online"
+                                        data-href="/ajax/matchdetails?id=82481">
+                                        <td style="width:50%">
+                                            <a href="/portugal/team/akademiku#kubok/2019-2020">Академику</a>
+                                        </td>
+                                        <td style="width:50px">
+
+                                            <a class="view-match" href="/match/82481-akademiku-vs-portu">23:45</a>
+                                        </td>
+                                        <td style="width:50%">
+                                            <a href="/portugal/team/portu#kubok/2019-2020">Порту</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div style="text-align:center">
+                            <div id="xCNDwOhn"></div>
+                            <script>
+                                (function (w, d, o, g, r, a, m) {
+                                    w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+                                    function e(b, w, r) {
+                                        if (w[r + 'h'] = b.pop()) {
+                                            a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                                            a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.insertBefore(a, p)
+                                        }
+                                    } if (!w.ABN) { e(g, w, r) }; w[r]("xCNDwOhn", { id: 1257997015 })
+                                })
+
+                                    (window, document, 'script', ['braun634.com'], 'ABNS');
+                            </script>
+
+                            <br>
+
+                            <div id="yandex_rtb_R-A-3183-5"></div>
+
+                            <br>
+                        </div>
+                    </section>
+
+                    <div style="text-align:center">
+                        <div id="xCNDwOhn"></div>
+                        <script>
+                            (function (w, d, o, g, r, a, m) {
+                                w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+                                function e(b, w, r) {
+                                    if (w[r + 'h'] = b.pop()) {
+                                        a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                                        a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.insertBefore(a, p)
+                                    }
+                                } if (!w.ABN) { e(g, w, r) }; w[r]("xCNDwOhn", { id: 1257997015 })
+                            })
+
+                                (window, document, 'script', ['braun634.com'], 'ABNS');
+                        </script>
+
+                        <br>
+
+                        <div id="yandex_rtb_R-A-3183-5"></div>
+
+                        <br>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </main>
+
+        <footer>
+            <div class="col-md-12 col-sm-12 text-left"
+                style="background-color: #222; color: #fff; font-size: 12px; padding: 40px; border-top: 3px solid #99cc66; vertical-align: top; margin: 40px 0px 0px;">
+                <span style="font-size: 14px;">
+                    <a class="white" href="/about">О проекте</a>&nbsp;&nbsp;&nbsp;
+                    <a class="white" href="mailto:d.filatov@list.ru">Обратная связь</a>&nbsp;&nbsp;&nbsp;
+                    <a rel="nofollow" target="_blank" class="white"
+                        href="https://yasobe.ru/na/zarplata_programmistu">Помощь разработчику
+                        сайта</a>&nbsp;&nbsp;&nbsp;
+                    <a class="white" href="/news">Лента новостей</a>&nbsp;&nbsp;&nbsp;
+                    <a class="white" href="/reklama">Реклама</a>&nbsp;&nbsp;&nbsp;
+                    <a class="white" href="http://hockeyland.ru">Хоккей</a></span>
+                <br><br>
+                <noindex>
+
+                    <!-- Rating@Mail.ru counter -->
+                    <script>
+                        var _tmr = window._tmr || (window._tmr = []);
+                        _tmr.push({ id: "1086861", type: "pageView", start: (new Date()).getTime() });
+                        (function (d, w, id) {
+                            if (d.getElementById(id)) return;
+                            var ts = d.createElement("script");
+                            ts.async = true;
+                            ts.id = id;
+                            ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+                            var f = function () {
+                                var s = d.getElementsByTagName("script")[0];
+                                s.parentNode.insertBefore(ts, s);
+                            };
+                            if (w.opera == "[object Opera]") {
+                                d.addEventListener("DOMContentLoaded", f, false);
+                            } else {
+                                f();
+                            }
+                        })(document, window, "topmailru-code");
+                    </script>
+                    <noscript>
+                        <img src="//top-fwz1.mail.ru/counter?id=1086861;js=na"
+                            style="border:0;position:absolute;left:-9999px;" alt="" />
+                    </noscript>
+                    <!-- //Rating@Mail.ru counter -->
+
+                    <!-- Rating@Mail.ru logo -->
+                    <a rel="nofollow" href="https://top.mail.ru/jump?from=1086861">
+                        <img src="//top-fwz1.mail.ru/counter?id=1086861;t=479;l=1" style="border:0;" height="31"
+                            width="88" alt="Рейтинг@Mail.ru" /></a>
+                    <!-- //Rating@Mail.ru logo -->
+
+                    &nbsp;&nbsp;&nbsp;
+                    <!--LiveInternet logo--><a rel="nofollow" href="//www.liveinternet.ru/click" target="_blank"><img
+                            src="//counter.yadro.ru/logo?42.12" title="LiveInternet" alt="" border="0" width="31"
+                            height="31" /></a>
+                    <!--/LiveInternet-->
+                    <!--LiveInternet counter-->
+                    <script type="text/javascript">
+                        new Image().src = "//counter.yadro.ru/hit?r" +
+                            escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";h" + escape(document.title.substring(0, 150)) +
+                            ";" + Math.random();</script>
+                    <!--/LiveInternet-->
+
+                    <!-- BEGIN ADVERTSERVE CODE CATFISH -->
+                    <div id="mLAXNbmB"></div>
+                    <script>
+                        (function (w, d, o, g, r, a, m) {
+                            d.write('<div id="' + (cid = (Math.random() * 1e17).toString(36)) + '"></div>');
+                            w[r] = w[r] || function () { (w[r + 'l'] = w[r + 'l'] || []).push(arguments) };
+                            function e(b, w, r) {
+                                if (w[r + 'h'] = b.pop()) {
+                                    a = d.createElement(o), p = d.getElementsByTagName(o)[0]; a.async = 1;
+                                    a.src = '//cdn.' + w[r + 'h'] + '/libs/b.js'; a.onerror = function () { e(g, w, r) }; p.parentNode.insertBefore(a, p)
+                                }
+                            } if (!w.ABN) { e(g, w, r) }; w[r]('mLAXNbmB', { id: 1672070245 })
+                        })(window, document, 'script', ['braun634.com'], 'ABNS');
+                    </script>
+                    <!-- END ADVERTSERVE CODE -->
+                </noindex>
+                <br>
+                <font color="#a9a9a9">© 2007–2020 г. «<a class="grey" href="https://soccerland.ru">Футбольная
+                        страна</a>» — ежедневное издание о футболе
+                    <br>Размещение рекламы: <a class="grey" href="mailto:d.filatov@list.ru">d.filatov@list.ru</a>
+                    <br><a class="grey" rel="nofollow"
+                        href="https://zen.yandex.ru/id/5d187df3cd798600ae29e8b5">Яндекс.Дзен</a>
+                </font>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal" id="register" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="nav-tabs clearfix">
+                    <div onclick="$('.auth-block form').hide();$($(this).data('target')).show();$('.nav-tab-item').removeClass('active');$(this).addClass('active')"
+                        data-target="#registration-form" class="nav-tab-item active">Регистрация</div>
+                    <div onclick="$('.auth-block form').hide();$($(this).data('target')).show();$('.nav-tab-item').removeClass('active');$(this).addClass('active')"
+                        data-target="#login-form" class="nav-tab-item">Авторизация</div>
+                </div>
+                <div class="auth-block">
+                    <form id="registration-form" action="/user/index/register" method="post">
+                        <input type="hidden" name="_csrf-frontend"
+                            value="jIe6PAd_VKBGXLKla0Tw1ySzrXYUce9VXkwF-HQQJJPi4dBNNyhhwQ0dhOQvA7y-CcSfQ34DhWcENmynHXNN0Q==">
+                        <div class="form-group field-user-email required">
+                            <label class="control-label" for="user-email">Email</label>
+                            <input type="text" id="user-email" class="form-control" name="User[email]"
+                                autocomplete="off" aria-required="true">
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-user-username required">
+                            <label class="control-label" for="user-username">Имя на формуе</label>
+                            <input type="text" id="user-username" class="form-control" name="User[username]"
+                                autocomplete="off" autofocus aria-required="true">
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-user-newpassword">
+                            <label class="control-label" for="user-newpassword">Пароль</label>
+                            <input type="password" id="user-newpassword" class="form-control" name="User[newPassword]">
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="modal-control">
+                            <div class="btn-group">
+                                <button type="button" data-dismiss="modal" class="btn btn-default">&times;</button>
+                                <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </form>
+                    <form id="login-form" action="/user/index/login" method="post" style="display:none">
+                        <input type="hidden" name="_csrf-frontend"
+                            value="jIe6PAd_VKBGXLKla0Tw1ySzrXYUce9VXkwF-HQQJJPi4dBNNyhhwQ0dhOQvA7y-CcSfQ34DhWcENmynHXNN0Q==">
+                        <div class="form-group field-formlogin-email required">
+                            <label class="control-label" for="formlogin-email">Email / Username</label>
+                            <input type="text" id="formlogin-email" class="form-control" name="FormLogin[email]"
+                                autocomplete="off" aria-required="true">
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-formlogin-password required">
+                            <label class="control-label" for="formlogin-password">Пароль</label>
+                            <input type="password" id="formlogin-password" class="form-control"
+                                name="FormLogin[password]" aria-required="true">
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-formlogin-rememberme">
+
+                            <input type="hidden" name="FormLogin[rememberMe]" value="0"><label><input type="checkbox"
+                                    id="formlogin-rememberme" name="FormLogin[rememberMe]" value="1" checked> Remember
+                                Me</label>
+
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="modal-control">
+                            <div class="btn-group">
+                                <button type="button" data-dismiss="modal" class="btn btn-default">&times;</button>
+                                <button type="submit" class="btn btn-primary">Войти</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+
+    </style>
+    <script src="/js/index.js?v=1557172403"></script>
+    <script>if ("undefined" !== typeof yii) yii.reloadableScripts.push("/site/*", "/team/content")</script>
+    <script>jQuery(function ($) {
+            jQuery('#registration-form').yiiActiveForm([{ "id": "user-email", "name": "email", "container": ".field-user-email", "input": "#user-email", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }, { "id": "user-username", "name": "username", "container": ".field-user-username", "input": "#user-username", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }, { "id": "user-newpassword", "name": "newPassword", "container": ".field-user-newpassword", "input": "#user-newpassword", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }], []);
+            jQuery('#login-form').yiiActiveForm([{ "id": "formlogin-email", "name": "email", "container": ".field-formlogin-email", "input": "#formlogin-email", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }, { "id": "formlogin-password", "name": "password", "container": ".field-formlogin-password", "input": "#formlogin-password", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }, { "id": "formlogin-rememberme", "name": "rememberMe", "container": ".field-formlogin-rememberme", "input": "#formlogin-rememberme", "enableAjaxValidation": true, "validateOnChange": false, "validateOnBlur": false }], []);
+        });</script>
+    <script>
+        (function (w, d, n, s, t) { w[n] = w[n] || []; w[n].push(function () { Ya.Context.AdvManager.render({ blockId: "R-A-3183-1", renderTo: "yandex_rtb_R-A-3183-1", horizontalAlign: false, async: true }); }); t = d.getElementsByTagName("script")[0]; s = d.createElement("script"); s.src = "//an.yandex.ru/system/context.js"; s.async = true; t.parentNode.insertBefore(s, t); })(this, this.document, "yandexContextAsyncCallbacks");
+    </script>
+    <script>(function (w, d, n, s, t) { w[n] = w[n] || []; w[n].push(function () { Ya.Context.AdvManager.render({ blockId: "R-A-3183-3", renderTo: "yandex_rtb_R-A-3183-3", horizontalAlign: false, async: true }); }); t = d.getElementsByTagName("script")[0]; s = d.createElement("script"); s.src = "//an.yandex.ru/system/context.js"; s.async = true; t.parentNode.insertBefore(s, t); })(this, this.document, "yandexContextAsyncCallbacks");</script>
+    <script>(function (w, d, n, s, t) { w[n] = w[n] || []; w[n].push(function () { Ya.Context.AdvManager.render({ blockId: "R-A-3183-4", renderTo: "yandex_rtb_R-A-3183-4", async: true }); }); t = d.getElementsByTagName("script")[0]; s = d.createElement("script"); s.src = "//an.yandex.ru/system/context.js"; s.async = true; t.parentNode.insertBefore(s, t); })(this, this.document, "yandexContextAsyncCallbacks");</script>
+    <script>(function (w, d, n, s, t) { w[n] = w[n] || []; w[n].push(function () { Ya.Context.AdvManager.render({ blockId: "R-A-3183-7", renderTo: "yandex_rtb_R-A-3183-7", async: true }); }); t = d.getElementsByTagName("script")[0]; s = d.createElement("script"); s.src = "//an.yandex.ru/system/context.js"; s.async = true; t.parentNode.insertBefore(s, t); })(this, this.document, "yandexContextAsyncCallbacks");</script>
+    <script>
+        (function (w, d, n, s, t) { w[n] = w[n] || []; w[n].push(function () { Ya.Context.AdvManager.render({ blockId: "R-A-3183-5", renderTo: "yandex_rtb_R-A-3183-5", horizontalAlign: false, async: true }); }); t = d.getElementsByTagName("script")[0]; s = d.createElement("script"); s.src = "//an.yandex.ru/system/context.js"; s.async = true; t.parentNode.insertBefore(s, t); })(this, this.document, "yandexContextAsyncCallbacks");
+    </script>
+</body>
+
+</html>
