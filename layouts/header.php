@@ -14,7 +14,7 @@
         content="Футбол, новости футбола и результаты матчей Лиги Чемпионов, Лиги Европы, on-line трансляции, видео трансляции, видео-трансляции, онлайн трансляции, ЧМ-2018. Календарь ближайших матчей. Самая полная статистика: европейских чемпионатов и всех групп Лиги Чемпионов и Лиги Европы, лучшие бомбардиры футбола России и многое другое.">
     <meta name="keywords"
         content="футбол, футбол россии, лига чемпионов, футбол сборная, видео трансляции, онлайн трансляции, футбол чемпионат россии, апл, примера, афпл, рфпл, чм-2018, спартак, динамо, зенит, цска, локомотив, динамо москва, фк спартак, торпедо, спартак москва, фк москва, крылья советов, фк зенит, рубин, футбол 2006, фк зенит, локомотив москва, фк динамо, фк цска, клуб динамо, спартак нальчик, томь, футбол календарь, фк спартак москва, футбол чемпионат россии, видео голы">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="../../css/index.css" rel="stylesheet">
     <script async src="//adbetnet.advertserve.com/js/libcode3.js"></script>
     <script src="//mc.yandex.ru/metrika/watch.js"></script>
     <script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=50022"></script>
@@ -398,26 +398,26 @@
                             <li class="dropdown"><a href="/russia" class="dropdown-toggle" data-toggle="dropdown"><i
                                         class="flag-icon flag-icon-ru visible-xs-inline-block"></i> Россия</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/russia/premier-liga/2019-2020/2019-2020.html">Премьер-лига</a></li>
-                                    <li><a href="/russia/premier-liga/2019-2020/calendar.html">Календарь премьер-лиги</a>
+                                    <li><a href="/russia/premier-liga/2019-2020/2019-2020.php">Премьер-лига</a></li>
+                                    <li><a href="/russia/premier-liga/2019-2020/calendar.php">Календарь премьер-лиги</a>
                                     </li>
-                                    <li><a href="/russia/fnl/2019-2020.html">ФНЛ. Первый дивизион</a></li>
-                                    <li><a href="/russia/kubok/2019-2020.html">Кубок России</a></li>
-                                    <li><a href="/cup-of-premiere/cup-of-premiere.html">Кубок Премьер</a></li>
-                                    <li><a href="/russia/superkubok/2018-2019.html">Суперкубок</a></li>
-                                    <li><a href="/russia/zona-centr/2019-2020.html">ПФЛ. Второй дивизион — Зона Центр</a></li>
-                                    <li><a href="/russia/zona-zapad/2019-2020.html">ПФЛ. Второй дивизион — Зона Запад</a></li>
-                                    <li><a href="/russia/zona-ural-povolzhie/2019-2020.html">ПФЛ. Второй дивизион — Зона
+                                    <li><a href="/russia/fnl/2019-2020.php">ФНЛ. Первый дивизион</a></li>
+                                    <li><a href="/russia/kubok/2019-2020.php">Кубок России</a></li>
+                                    <li><a href="/cup-of-premiere/cup-of-premiere.php">Кубок Премьер</a></li>
+                                    <li><a href="/russia/superkubok/2018-2019.php">Суперкубок</a></li>
+                                    <li><a href="/russia/zona-centr/2019-2020.php">ПФЛ. Второй дивизион — Зона Центр</a></li>
+                                    <li><a href="/russia/zona-zapad/2019-2020.php">ПФЛ. Второй дивизион — Зона Запад</a></li>
+                                    <li><a href="/russia/zona-ural-povolzhie/2019-2020.php">ПФЛ. Второй дивизион — Зона
                                             Урал-поволжье</a></li>
-                                    <li><a href="/russia/zona-yug/2019-2020.html">ПФЛ. Второй дивизион — Зона Юг</a></li>
-                                    <li><a href="/russia/zona-vostok/2019-2020.html">ПФЛ. Второй дивизион — Зона Восток</a></li>
-                                    <li><a href="/russia/molodezhnyj-turnir/2019-2020.html">Молодёжный турнир</a></li>
+                                    <li><a href="/russia/zona-yug/2019-2020.php">ПФЛ. Второй дивизион — Зона Юг</a></li>
+                                    <li><a href="/russia/zona-vostok/2019-2020.php">ПФЛ. Второй дивизион — Зона Восток</a></li>
+                                    <li><a href="/russia/molodezhnyj-turnir/2019-2020.php">Молодёжный турнир</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="/england" class="dropdown-toggle" data-toggle="dropdown"><i
                                         class="flag-icon flag-icon-gb visible-xs-inline-block"></i> Англия</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/england/premier-liga/2019-2020.html">Премьер-лига</a></li>
+                                    <li><a href="/england/premier-liga/2019-2020.php">Премьер-лига</a></li>
                                     <li><a href="/england/championship">Чемпионшип</a></li>
                                     <li><a href="/england/first-league">Первая лига</a></li>
                                     <li><a href="/england/second-league">Вторая лига</a></li>
